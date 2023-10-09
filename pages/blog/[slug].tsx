@@ -6,7 +6,7 @@ const Slug = () => {
     const router = useRouter()
     const { slug} = router.query;
   return (
-    <div>[slug] :{slug} </div>
+    <div>title of page is  :{slug} </div>
   )
 }
 

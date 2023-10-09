@@ -12,7 +12,7 @@ const Navbar = () => {
                     </h3>
                 </div>
                 <ul style={{ display: 'flex', gap: "10rem" }}>
-                    <Link href='/home' >
+                    <Link href='/' >
                         <li>Home</li>
                     </Link>
                     <Link href="/contact" >
@@ -20,6 +20,9 @@ const Navbar = () => {
                     </Link>
                     <Link href='/documents' >
                         <li>Documents</li>
+                    </Link>
+                    <Link href='/blog' >
+                        <li>Blogs</li>
                     </Link>
                 </ul>
             </div>
